@@ -14,7 +14,7 @@ public class Espadachim extends Personagem{
 
         try {
             super.setId(2);
-            super.setNome("Stalin");
+            super.setNome("Haddad");
             super.setCategoria(Categoria.ESPADACHIM);
 
             atributos.setVida(50);

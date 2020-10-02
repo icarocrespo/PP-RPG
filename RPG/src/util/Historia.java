@@ -21,7 +21,8 @@ public class Historia {
     
 // Explica a cena do castelo no momento 1 da História 
     public static void castelo1(){
-        System.out.println("Texto do castelo.");
+        System.out.println("Os destemidos guerreiros chegam ao castelo e aguardam sua convocação\n"
+                + "à presença do rei. Vigiados por guardas em um grande salão, ");
     }
     
 // Explica a cena dos personagens no momento 3 da História
