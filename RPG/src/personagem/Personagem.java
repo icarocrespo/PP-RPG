@@ -135,7 +135,6 @@ public abstract class Personagem {
 
             for (Item item : itens) {
                 retorno += "Item [" + i + "] = " + item.getNome() + "\n"
-                        + "Tipo = " + item.getTipo() + "\n"
                         + "Status = " + item.getStatus() + "\n"
                         + "Acréscimo HP = " + item.getAcrescimo_hp() + "\n"
                         + "Acréscimo Ataque = " + item.getAcrescimo_a() + "\n"

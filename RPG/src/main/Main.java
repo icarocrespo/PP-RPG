@@ -1,7 +1,7 @@
 package main;
 
 import util.Item;
-import util.Menu;
+import util.Controle;
 import java.util.Scanner;
 import mapa.Castelo;
 import mapa.Floresta;
@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         Scanner x = new Scanner(System.in);
-        Menu menu = new Menu();
+        Controle controle = new Controle();
         Mapa mapa = new Mapa();
         
         Item espada = new Item(1, "Facada Biroliro", 20F, null, 30F, null, 5F, null, false);
@@ -35,12 +35,12 @@ public class Main {
         // dispõe locais no mapa
         mapa.setMapa(castelo, 0, 3);
         mapa.setMapa(vilarejo, 2, 2);
-        mapa.setMapa(taberna, 2, 3);
-        mapa.setMapa(floresta, 4, 4);
+        mapa.setMapa(taberna, 2, 4);
+        mapa.setMapa(floresta, 4, 3);
                 
-        personagem = menu.inicial(mapa);
-        menu.movimento(mapa);
-        menu.acao(mapa, personagem);
+        personagem = controle.inicial(mapa);
+        controle.movimento(mapa);
+        controle.acao(mapa, personagem);
         
     }
     

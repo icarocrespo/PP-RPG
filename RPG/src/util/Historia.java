@@ -81,6 +81,54 @@ public class Historia {
         System.out.println("- Sua Majestade não esqueça de nossos barris de cerveja! [som de soluço]\n");
     }
 
+
+    public static void espada() throws InterruptedException{
+        System.out.println("Após conversar com o rei, nosso herói, ao passar pela sala do trono ouve");
+        Thread.sleep(1000);
+        System.out.println("uma voz chamá-lo. Chegando no cômodo, havia ninguém, apenas uma grande espada");
+        Thread.sleep(1000);
+        System.out.println("O rei surge e diz que aquela era uma espada de guerreiros já falecidos e que,");
+        Thread.sleep(1000);
+        System.out.println("reza a lenda, quem ouve o chamado dela será seu próximo dono. O rei permita que");
+        Thread.sleep(1000);
+        System.out.println("ela seja levada como presente à trajetório do herói.\n");
+    }
+    
+    public static void pocao() throws InterruptedException{
+        System.out.println("Chegando na Taberna Chapéu de Javali e após algumas canecas da melhor cerveja");
+        Thread.sleep(1000);
+        System.out.println("do reino, uma das garçonetes entrega ao herói uma nova caneca com algo diferenciado.");
+        Thread.sleep(1000);
+        System.out.println("Ao virar para trás, a garçonete havia sumido. Como bebida de graça não se nega,");
+        Thread.sleep(1000);
+        System.out.println("o herói bebe e imediatamente sente-se revigorado e, aparentemente, mais forte.\n");
+    }
+    
+    public static void floresta1() throws InterruptedException{
+        System.out.println("Ao chegarem na floresta, os guerreiros do reino sentem o ar mais pesado e ouvem");
+        Thread.sleep(1000);
+        System.out.println("algo ao fundo, como se fosse alguém falando 'taokay, fraquejei, tem que matar'.");
+        Thread.sleep(1000);
+        System.out.println("Lula: - Sem dúvida companheiros, é o Biroliro, conheço esse som. Aproximando-se");
+        Thread.sleep(1000);
+        System.out.println("eles vêm uma criatura horrenda com 3m de altura e proferindo repetidamente tais");
+        Thread.sleep(1000);
+        System.out.println("palavras. Os guerreiros se preparam e a batalha começa.\n");
+    }
+    
+    public static void fim() throws InterruptedException{
+        System.out.println("Reunidos no salão do castelo, diversos membros da realeza comemoravam enquanto");
+        Thread.sleep(1000);
+        System.out.println("o mago estava desmaiado em cima dos prometidos barris de cerveja. O rei diz");
+        Thread.sleep(1000);
+        System.out.println("Rei: - Meu povo, apresento-lhes nossos guerreiros que combateram a criatura");
+        Thread.sleep(1000);
+        System.out.println("Biroliro. Estamos em eterna dívida com vocês e em nome de todos homenageio-os");
+        Thread.sleep(1000);
+        System.out.println("com este festival e farto banquete.");
+        Thread.sleep(1000);
+        System.out.println("||||| FIM |||||");
+    }
 // Explica a cena dos personagens no momento 3 da História
     public static void personagens2() throws InterruptedException {
 

@@ -2,9 +2,12 @@
 
 
 	Requisitos:
-	> Qualquer Sistema Operacional (SO) que contenha o Java Runtime Enviroment instalado, recomendado
-	> inserir no terminal ou similar o caminho da raiz ou estando na pasta acrescido do comando: javac 
-
+	> Qualquer Sistema Operacional (SO)
+	> Java Runtime Enviroment (JRE)
+	> É possível que seja necessário possuir o Java Developer Kit (JDK)
+	> Você pode: 
+		importar o projeto "RPG" na IDE de sua preferência e executá-lo
+		no terminal ou similar, inserir o comando: java -jar "[CAMINHO DA PASTA]\RPG\dist\RPG.jar"
 
 	COMO JOGAR
 	> O jogo funciona a partir de interações via texto com o jogador
