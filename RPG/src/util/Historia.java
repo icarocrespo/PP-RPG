@@ -22,10 +22,6 @@ public class Historia {
 // Explica a cena dos personagens no momento 1 da História
     // Haddad
     public static void haddad1() throws InterruptedException {
-        System.out.println("Enquanto o rei aguardava em seu castelo a chegada de seus guerreiros,");
-        Thread.sleep(1000);
-        System.out.println("não podemos dizer o mesmo da última esperança do reino de Skarsgard.");
-        Thread.sleep(1000);
         System.out.println("Haddad o Espadachim demorou a ser encontrado pelos soldados do rei,");
         Thread.sleep(1000);
         System.out.println("já que estava no telhado da igreja central praguejando contra Deus");
@@ -47,9 +43,9 @@ public class Historia {
     
     // Putin
     public static void putin1() throws InterruptedException{
-        System.out.println("Já nosso último guerreiro vem de um povo das montanhas do reino, o último de");
+        System.out.println("Nosso arqueiro vem de um povo das montanhas do reino, o último da");
         Thread.sleep(1000);
-        System.out.println("da casa que leva seu nome. Seu passado é desconhecido em nossa história e dizem");
+        System.out.println("asa que leva seu nome. Seu passado é desconhecido em nossa história e dizem");
         Thread.sleep(1000);
         System.out.println("que sua mira falhou apenas uma vez ao longo de toda a sua vida.");
         Thread.sleep(1000);
@@ -82,7 +78,7 @@ public class Historia {
         Thread.sleep(1000);
         System.out.println("Lula:");
         Thread.sleep(1000);
-        System.out.println("- Sua Majestade não esqueça de nossos barris de cerveja! [som de soluço]");
+        System.out.println("- Sua Majestade não esqueça de nossos barris de cerveja! [som de soluço]\n");
     }
 
 // Explica a cena dos personagens no momento 3 da História

@@ -1,7 +1,6 @@
 package mapa;
 
-import item.Item;
-import java.util.List;
+import util.Item;
 
 /**
  *
@@ -12,8 +11,8 @@ public class Vilarejo extends Mapa{
     public Vilarejo() {
     }
 
-    public Vilarejo(List<Item> itens) {
-        super(itens);
+    public Vilarejo(Item item) {
+        super(item);
     }
     
     

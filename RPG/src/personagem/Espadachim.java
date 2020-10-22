@@ -12,14 +12,14 @@ public class Espadachim extends Personagem{
     atributos = new Atributos();
 
         try {
-            super.setId(2);
-            super.setNome("Haddad");
-            super.setCategoria(Categoria.ESPADACHIM);
-
+            super.id = 2;
+            super.nome = "Haddad";
+            super.categoria = Categoria.ESPADACHIM;
+            super.selected = false;
+            
             super.atributos.setVida(50F);
             super.atributos.setAtaque(8F);
             super.atributos.setDefesa(6F);
-            super.atributos.setDistancia(1F);
             super.atributos.setMagia(0F);
             super.setAtributos(atributos);
         } catch (Exception e) {

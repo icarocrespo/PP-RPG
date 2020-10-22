@@ -6,14 +6,13 @@ import util.Item;
  *
  * @author icaro
  */
-public class Castelo extends Mapa {
-
-    public Castelo() {
-
+public class Taberna extends Mapa{
+    
+    public Taberna(){
+    
     }
-
-    public Castelo(Item item) {
+    
+    public Taberna(Item item){
         super(item);
     }
-
 }

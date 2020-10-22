@@ -9,18 +9,16 @@ public class Atributos {
     private Float vida;
     private Float ataque;
     private Float defesa;
-    private Float distancia;
     private Float magia;
 
     public Atributos(){
     
     }
     
-    public Atributos(Float vida, Float ataque, Float defesa, Float distancia, Float magia) {
+    public Atributos(Float vida, Float ataque, Float defesa, Float magia) {
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
-        this.distancia = distancia;
         this.magia = magia;
     }
 
@@ -46,14 +44,6 @@ public class Atributos {
 
     public void setDefesa(Float defesa) {
         this.defesa = defesa;
-    }
-
-    public Float getDistancia() {
-        return distancia;
-    }
-
-    public void setDistancia(Float distancia) {
-        this.distancia = distancia;
     }
 
     public Float getMagia() {

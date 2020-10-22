@@ -8,7 +8,7 @@ public class Arqueiro extends Personagem {
 
     Atributos atributos;
 
-// Arqueiros VIDA = 30; ATAQUE = 6; DEFESA = 3; DISTANICA = 5; MAGIA = 0
+// Arqueiros VIDA = 30; ATAQUE = 6; DEFESA = 3; MAGIA = 0
     public Arqueiro() {
         atributos = new Atributos();
 
@@ -20,7 +20,6 @@ public class Arqueiro extends Personagem {
             atributos.setVida(30F);
             atributos.setAtaque(6F);
             atributos.setDefesa(3F);
-            atributos.setDistancia(5F);
             atributos.setMagia(0F);
             super.setAtributos(atributos);
         } catch (Exception e) {

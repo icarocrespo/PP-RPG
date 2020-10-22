@@ -1,6 +1,6 @@
 package jogador;
 
-import item.Item;
+import util.Item;
 import java.util.List;
 
 /**

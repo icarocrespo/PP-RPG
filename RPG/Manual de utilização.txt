@@ -1,0 +1,17 @@
+##### As aventuras de Haddad, Putin e Lula #####
+
+
+	Requisitos:
+	> Qualquer Sistema Operacional (SO) que contenha o Java Runtime Enviroment instalado, recomendado
+	> inserir no terminal ou similar o caminho da raiz ou estando na pasta acrescido do comando: javac 
+
+
+	COMO JOGAR
+	> O jogo funciona a partir de interações via texto com o jogador
+	> Possui um conceito de mapa e navegabilidade, onde o jogador insere uma opção para efetuar uma ação
+	> O jogador escolhe um dos três personagens disponíveis (a história não se altera).
+	> Os personagens possuem atributos distintos
+	> O objetivo do jogo é encontrar o vilão Biroliro e ser vitorioso no embate contra ele
+	> Ações durante a batalha ocorrem a partir do rolar de um dado.
+
+Bom jogo!

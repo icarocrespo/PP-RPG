@@ -1,7 +1,6 @@
 package mapa;
 
-import item.Item;
-import java.util.List;
+import util.Item;
 import personagem.Chefao;
 
 /**
@@ -14,9 +13,10 @@ public class Floresta extends Mapa{
     public Floresta() {
     }
 
-    public Floresta(Chefao boss, List<Item> itens) {
-        super(itens);
+    public Floresta(Chefao boss, Item item) {
+        super(item);
         this.boss = boss;
+        
     }
 
     public Floresta(Chefao boss) {
