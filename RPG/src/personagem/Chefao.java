@@ -17,11 +17,11 @@ public class Chefao extends Personagem {
             super.setNome("Bolsossauro");
             super.setCategoria(Categoria.CHEFAO);
 
-            atributos.setVida(120);
-            atributos.setAtaque(12);
-            atributos.setDefesa(20);
+            atributos.setVida(120F);
+            atributos.setAtaque(12F);
+            atributos.setDefesa(20F);
             atributos.setDistancia(2F);
-            atributos.setMagia(6);
+            atributos.setMagia(6F);
             super.setAtributos(atributos);
         } catch (Exception e) {
 

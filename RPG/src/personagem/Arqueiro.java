@@ -17,11 +17,11 @@ public class Arqueiro extends Personagem {
             super.setNome("Putin");
             super.setCategoria(Categoria.ARQUEIRO);
 
-            atributos.setVida(30);
-            atributos.setAtaque(6);
-            atributos.setDefesa(3);
+            atributos.setVida(30F);
+            atributos.setAtaque(6F);
+            atributos.setDefesa(3F);
             atributos.setDistancia(5F);
-            atributos.setMagia(0);
+            atributos.setMagia(0F);
             super.setAtributos(atributos);
         } catch (Exception e) {
 

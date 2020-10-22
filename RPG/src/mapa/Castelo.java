@@ -7,7 +7,7 @@ package mapa;
 public class Castelo  extends Mapa{
 
     public Castelo(){
-        
+       
     }
 
 }

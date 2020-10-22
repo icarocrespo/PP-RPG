@@ -17,11 +17,11 @@ public class Mago extends Personagem {
             super.setNome("Lula");
             super.setCategoria(Categoria.MAGO);
 
-            atributos.setVida(30);
-            atributos.setAtaque(7);
-            atributos.setDefesa(3);
+            atributos.setVida(30F);
+            atributos.setAtaque(7F);
+            atributos.setDefesa(3F);
             atributos.setDistancia(3.5F);
-            atributos.setMagia(2);
+            atributos.setMagia(3F);
             super.setAtributos(atributos);
         } catch (Exception e) {
             

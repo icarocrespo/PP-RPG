@@ -6,17 +6,17 @@ package personagem;
  */
 public class Atributos {
     
-    private Integer vida;
-    private Integer ataque;
-    private Integer defesa;
+    private Float vida;
+    private Float ataque;
+    private Float defesa;
     private Float distancia;
-    private Integer magia;
+    private Float magia;
 
     public Atributos(){
     
     }
     
-    public Atributos(Integer vida, Integer ataque, Integer defesa, Float distancia, Integer magia) {
+    public Atributos(Float vida, Float ataque, Float defesa, Float distancia, Float magia) {
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
@@ -24,27 +24,27 @@ public class Atributos {
         this.magia = magia;
     }
 
-    public Integer getVida() {
+    public Float getVida() {
         return vida;
     }
 
-    public void setVida(Integer vida) {
+    public void setVida(Float vida) {
         this.vida = vida;
     }
 
-    public Integer getAtaque() {
+    public Float getAtaque() {
         return ataque;
     }
 
-    public void setAtaque(Integer ataque) {
+    public void setAtaque(Float ataque) {
         this.ataque = ataque;
     }
 
-    public Integer getDefesa() {
+    public Float getDefesa() {
         return defesa;
     }
 
-    public void setDefesa(Integer defesa) {
+    public void setDefesa(Float defesa) {
         this.defesa = defesa;
     }
 
@@ -56,11 +56,11 @@ public class Atributos {
         this.distancia = distancia;
     }
 
-    public Integer getMagia() {
+    public Float getMagia() {
         return magia;
     }
 
-    public void setMagia(Integer magia) {
+    public void setMagia(Float magia) {
         this.magia = magia;
     }
     
